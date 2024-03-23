@@ -8,12 +8,27 @@ const AnimatedBox = () => {
       <style>
         @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap')
       </style>
+      <body>
+        <nav>
+          <motion.div
+            className="nav-content"
+            initial={{ y: -100 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 0, type: "spring", bounce: 0.45 }}
+          >
+            <img
+              src="https://s3-alpha-sig.figma.com/img/9a88/fd93/c53b74ecae44f654ec9b6840a24e61b2?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dZ3azxVGjti7dgU9WThHRhEKo7VhQ8-ikhH5LeJsimiE8keXdd-pmaVzDHEyc8mdiM1dPbxEb5D5rbry3TKklDDSWqRIqgceHCXC1Ctgl7e-fk-Lzm0YjLg42Dz1UsCwhypmrrMhomFL~ooI~nkpuRzkk1xql4rTH0cwEFUO3H~I7xaunRIBXgHj-UWpKaKKsg0MkXwIWHC8IUbo7qKiFAyUazRUozaPgnuCjj6NxQez-j3DximNIBB7luVIU39VnlT5WCDvUiYMQuY5k4MonAd5fF8kMU2X~xJbDdjmzVPwHhoVvrsKnT-x8im5HzcXM5foBuZwc1op~2OCc5K3XA__"
+              style={{ height: "59px", top: "-10px" }}
+            />
+          </motion.div>
+        </nav>
+      </body>
       <footer className="footer">
         <motion.div
           className="footer-content"
           initial={{ y: 100 }}
           animate={{ y: 0 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          transition={{ duration: 1, type: "spring", bounce: 0.45 }}
         >
           <a href="https://www.twitter.com/adityavelusamy/">
             <img
