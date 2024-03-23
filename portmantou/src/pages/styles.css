@@ -1,0 +1,23 @@
+/* body {
+    background-color: #000000;
+} */
+.icon {
+    margin: 5px 10px -10px;
+    width: 50px;
+}
+.footer {
+    left: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 101%; /* Ensure the footer takes the full width */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #d8d4d5;
+}
+p {
+    font-family: "K2D", sans-serif;
+}
+.footer-content {
+    text-align: center; /* Ensure text is centered */
+}
