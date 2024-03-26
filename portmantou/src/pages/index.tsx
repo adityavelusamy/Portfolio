@@ -24,9 +24,9 @@ const AnimatedBox = () => {
         <div className="aboutmeboxparent">
           <motion.div
             className="aboutmebox"
-            initial={{ x: 1000 }}
-            animate={{ x: 0 }}
-            transition={{ duration: 1, type: "spring", bounce: 0.45 }}
+            // initial={{ x: 1000 }}
+            // animate={{ x: 0 }}
+            // transition={{ duration: 1, type: "spring", bounce: 0.45 }}
           >
             <p className="content">
               I am a software engineer and a student at the University of

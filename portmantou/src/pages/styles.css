@@ -54,4 +54,5 @@ h2 {
 .titleboxparent,
 body {
     position: relative;
+    display: block;
 }
