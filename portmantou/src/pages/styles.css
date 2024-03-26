@@ -29,7 +29,7 @@ h2 {
 
 .nametitle {
     margin-top: -5%;
-    font-size: 19px;
+    font-size: 192px;
 }
 .titlecontent {
     margin-top: 5%;
@@ -106,8 +106,6 @@ body {
     background: #f9fbf2;
     width: 26.455026455vw;
     height: 23.2760692464vh;
-    justify-content: center;
-    text-align: center;
 }
 .techtitle {
     font-size: 32px;

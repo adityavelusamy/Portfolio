@@ -1,7 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./styles.css";
-
+const styles = {
+  fontSize: "106px",
+  textAlign: "center",
+  // Add more styles as needed
+};
 const AnimatedBox = () => {
   return (
     <React.Fragment>
@@ -42,31 +46,60 @@ const AnimatedBox = () => {
             </div>
           </motion.div>
         </div>
-        {/* <div className="technologiesboxparent">
+        <div className="technologiesboxparent">
           <motion.div
             className="technologiesbox"
             // initial={{ x: 1000 }}
             // animate={{ x: 0 }}
             // transition={{ duration: 1, type: "spring", bounce: 0.45 }}
           >
-            <h1 className="technologiestitle">Technologies</h1>
-            <div className="floatleft">
-              <div className="techbox">
-                <h2 className="techtitle">ReactJs</h2>
-              </div>
-              <div className="techbox">
-                <h2 className="techtitle">Backend</h2>
-              </div>
-            </div>
+            <h1 style={styles}>App Academy Projects</h1>
+            <ul style={{ fontFamily: "K2D" }}>
+              <li>
+                Project: Sand Art Project <br /> Link:
+                <a href="https://editor.p5js.org/avelusamy/sketches/HRUI1TG1W">
+                  https://editor.p5js.org/avelusamy/sketches/HRUI1TG1W{" "}
+                </a>
+                <br /> Description: This is a project where I created a sand art
+                art simulation using a guide provided in class.
+              </li>
+              <li>
+                Project: Platformer Game <br /> Link:
+                <a href="https://editor.p5js.org/avelusamy/sketches/8O_xdWHCl">
+                  https://editor.p5js.org/avelusamy/sketches/8O_xdWHCl{" "}
+                </a>
+                <br /> Description: This is a platformer game where the goal is
+                to reach the finish point, may or may not work based on how p5
+                feels.
+              </li>
+              <li>
+                Project: Madlibs Project <br /> Link:
+                <a href="https://editor.p5js.org/avelusamy/sketches/MqijCKypd">
+                  https://editor.p5js.org/avelusamy/sketches/MqijCKypd{" "}
+                </a>
+                <br /> Description: This is a madlibs project where the user
+                will enter a few words into an alert and the program will
+                generate a story based on the words.
+              </li>
+              <li>
+                Project: Encoding Tool <br /> Link:
+                <a href="https://editor.p5js.org/avelusamy/sketches/mUba_-ZDj">
+                  https://editor.p5js.org/avelusamy/sketches/mUba_-ZDj{" "}
+                </a>
+                <br /> Description: This is a tool that accepts a string and
+                will encode or decode it for you. Has support for txt files as
+                both an input and output.
+              </li>
+            </ul>
           </motion.div>
-        </div> */}
+        </div>
       </body>
       <footer className="footer">
         <motion.div
           className="footer-content"
-          initial={{ y: 100 }}
-          animate={{ y: 0 }}
-          transition={{ duration: 1, type: "spring", bounce: 0.45 }}
+          // initial={{ y: 100 }}
+          // animate={{ y: 0 }}
+          // transition={{ duration: 1, type: "spring", bounce: 0.45 }}
         >
           <a href="https://www.twitter.com/adityavelusamy/">
             <img
