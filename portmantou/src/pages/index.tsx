@@ -6,22 +6,40 @@ const AnimatedBox = () => {
   return (
     <React.Fragment>
       <style>
-        @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap')
+        @import
+        url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Inika:wght@400;700&family=K2D&display=swap')
       </style>
       <body>
-        <nav>
+        <div className="titleboxparent">
           <motion.div
-            className="nav-content"
-            initial={{ y: -100 }}
-            animate={{ y: 0 }}
-            transition={{ duration: 0, type: "spring", bounce: 0.45 }}
+            className="titlebox"
+            initial={{ x: -1000 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 1, type: "spring", bounce: 0.45 }}
           >
-            <img
-              src="https://s3-alpha-sig.figma.com/img/9a88/fd93/c53b74ecae44f654ec9b6840a24e61b2?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dZ3azxVGjti7dgU9WThHRhEKo7VhQ8-ikhH5LeJsimiE8keXdd-pmaVzDHEyc8mdiM1dPbxEb5D5rbry3TKklDDSWqRIqgceHCXC1Ctgl7e-fk-Lzm0YjLg42Dz1UsCwhypmrrMhomFL~ooI~nkpuRzkk1xql4rTH0cwEFUO3H~I7xaunRIBXgHj-UWpKaKKsg0MkXwIWHC8IUbo7qKiFAyUazRUozaPgnuCjj6NxQez-j3DximNIBB7luVIU39VnlT5WCDvUiYMQuY5k4MonAd5fF8kMU2X~xJbDdjmzVPwHhoVvrsKnT-x8im5HzcXM5foBuZwc1op~2OCc5K3XA__"
-              style={{ height: "59px", top: "-10px" }}
-            />
+            <h2 className="styletitle">Hello, My Name is</h2>
+            <h1 className="nametitle">Aditya Velusamy</h1>
           </motion.div>
-        </nav>
+        </div>
+        <div className="aboutmeboxparent">
+          <motion.div
+            className="aboutmebox"
+            initial={{ x: 1000 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 1, type: "spring", bounce: 0.45 }}
+          >
+            <p className="content">
+              I am a software engineer and a student at the University of
+              Waterloo. I am passionate about building software that makes a
+              difference in the world. I am currently looking for internships
+              for the summer of 2022. I am proficient in Java, Python, C++, and
+              JavaScript. I have experience with React, Node.js, and Express.js.
+              I am also familiar with SQL and NoSQL databases. I am always
+              looking for new opportunities to learn and grow. I am excited to
+              work with you!
+            </p>
+          </motion.div>
+        </div>
       </body>
       <footer className="footer">
         <motion.div
