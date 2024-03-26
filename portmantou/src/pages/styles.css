@@ -5,19 +5,53 @@
     margin: 5px 10px -10px;
     width: 50px;
 }
+
 .footer {
     left: -10px;
     position: fixed;
     bottom: 0;
-    width: 101%; /* Ensure the footer takes the full width */
+    width: 101%;
+    /* Ensure the footer takes the full width */
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
     background-color: #d8d4d5;
 }
+
 p {
     font-family: "K2D", sans-serif;
 }
+
 .footer-content {
-    text-align: center; /* Ensure text is centered */
+    text-align: center;
+    /* Ensure text is centered */
+}
+
+h1,
+h2 {
+    margin-left: 5%;
+    font-family: "Iowan Old Style", serif;
+}
+
+.styletitle {
+    font-size: 128px;
+}
+.nametitle {
+    margin-top: -8%;
+    font-size: 156px;
+}
+.titlebox {
+    position: fixed;
+    background-color: #d8d4d5;
+    padding: 0%;
+    margin: 0%;
+    width: 103%;
+    margin-left: -1.5%;
+    top: 0;
+}
+.titleboxparent,
+body {
+    position: relative;
 }
