@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "framer-motion": "^11.0.20",
+    "framer-motion": "^11.0.22",
     "gatsby": "^5.13.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
