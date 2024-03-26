@@ -17,8 +17,10 @@ const AnimatedBox = () => {
             animate={{ x: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.45 }}
           >
-            <h2 className="styletitle">Hello, My Name is</h2>
-            <h1 className="nametitle">Aditya Velusamy</h1>
+            <div className="titlecontent">
+              <h2 className="styletitle">Hello, My Name is</h2>
+              <h1 className="nametitle">Aditya Velusamy</h1>
+            </div>
           </motion.div>
         </div>
         <div className="aboutmeboxparent">
@@ -28,18 +30,36 @@ const AnimatedBox = () => {
             // animate={{ x: 0 }}
             // transition={{ duration: 1, type: "spring", bounce: 0.45 }}
           >
-            <p className="content">
-              I am a software engineer and a student at the University of
-              Waterloo. I am passionate about building software that makes a
-              difference in the world. I am currently looking for internships
-              for the summer of 2022. I am proficient in Java, Python, C++, and
-              JavaScript. I have experience with React, Node.js, and Express.js.
-              I am also familiar with SQL and NoSQL databases. I am always
-              looking for new opportunities to learn and grow. I am excited to
-              work with you!
-            </p>
+            <div className="aboutmecontentbox">
+              <h1 className="aboutmetitle">About Me</h1>
+              <p className="aboutmecontent">
+                I am a high shcool student who occasionally likes coding. I have
+                extensive experience with languages like Python and Javascript.
+                I also have experience with using frameworks for frontend like
+                React and Gatsby, as well as backend frameworks like NodeJS and
+                ExpressJS.
+              </p>
+            </div>
           </motion.div>
         </div>
+        {/* <div className="technologiesboxparent">
+          <motion.div
+            className="technologiesbox"
+            // initial={{ x: 1000 }}
+            // animate={{ x: 0 }}
+            // transition={{ duration: 1, type: "spring", bounce: 0.45 }}
+          >
+            <h1 className="technologiestitle">Technologies</h1>
+            <div className="floatleft">
+              <div className="techbox">
+                <h2 className="techtitle">ReactJs</h2>
+              </div>
+              <div className="techbox">
+                <h2 className="techtitle">Backend</h2>
+              </div>
+            </div>
+          </motion.div>
+        </div> */}
       </body>
       <footer className="footer">
         <motion.div
