@@ -14,7 +14,7 @@ updates:
     commit-message:
       prefix: "Composer"
       include: "scope"
-   - package-ecosystem: "yarn" # See documentation for possible values
+  - package-ecosystem: "yarn" # See documentation for possible values
     directory: "/portmantou" # Location of package manifests
     schedule:
       interval: "daily"
