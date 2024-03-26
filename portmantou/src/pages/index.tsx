@@ -113,7 +113,7 @@ const AnimatedBox = () => {
               src="https://static.vecteezy.com/system/resources/previews/020/009/614/original/email-and-mail-icon-black-free-png.png"
             />
           </a>
-          <a href="https://www.github.com/avelusamy">
+          <a href="https://github.com/adityavelusamy/Portfolio/tree/app-academy">
             <img
               className="icon"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
