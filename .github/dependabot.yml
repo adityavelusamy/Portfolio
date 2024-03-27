@@ -14,12 +14,3 @@ updates:
     commit-message:
       prefix: "Composer"
       include: "scope"
-  - package-ecosystem: "yarn" # See documentation for possible values
-    directory: "/portmantou" # Location of package manifests
-    schedule:
-      interval: "daily"
-      time: "10:00"
-      timezone: "America/Los_Angeles"
-    commit-message:
-      prefix: "Composer"
-      include: "scope"
