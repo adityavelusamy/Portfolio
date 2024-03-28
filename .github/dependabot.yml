@@ -9,7 +9,7 @@ updates:
     directory: "/portmantou" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "10:00"
+      time: "05:00"
       timezone: "America/Los_Angeles"
     commit-message:
       prefix: "Composer"
