@@ -14,3 +14,8 @@ updates:
     commit-message:
       prefix: "Composer"
       include: "scope"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
